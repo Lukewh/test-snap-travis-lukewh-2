@@ -1,9 +1,5 @@
 language: minimal
 
-env:
-  global:
-    - SNAPCRAFT_IMAGE_INFO: '{"build_url": "$TRAVIS_BUILD_URL"}'
-
 addons:
   snaps:
     - name: snapcraft
