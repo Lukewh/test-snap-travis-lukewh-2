@@ -1,5 +1,5 @@
 language: generic
 
 deploy:
-  provider: snap
+  provider: *.snap
   edge: true
