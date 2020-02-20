@@ -1,5 +1,6 @@
 language: generic
 
+script: snapcraft
 deploy:
-  provider: *.snap
+  provider: snap
   edge: true
