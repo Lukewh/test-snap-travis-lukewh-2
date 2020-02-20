@@ -2,7 +2,7 @@ name: test-snap-travis-lukewh
 version: 0.0.2
 summary: Just a test python snap
 description: >
-  Just a test python snap
+  Just a test python snap innit
 
 confinement: strict
 base: core18
