@@ -1,8 +1,4 @@
-language: minimal
-dist: xenial
-
 deploy:
   provider: snap
   snap: test-snap-travis-lukewh-2*.snap
-  channel: edge
-  skip_cleanup: true
+  edge: true
