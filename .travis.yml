@@ -1,13 +1,12 @@
-language: generic
+language: minimal
 
 addons:
   snaps:
     - name: snapcraft
       channel: stable
       confinement: classic
-    - name: lxd
-      channel: stable
-script: sudo snapcraft --use-lxd
+
+script: sudo snapcraft
 deploy:
   provider: snap
   edge: true
