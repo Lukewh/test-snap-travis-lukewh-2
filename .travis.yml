@@ -2,5 +2,5 @@ language: generic
 
 deploy:
   provider: snap
-  snap: test-snap-travis-lukewh*.snap
+  snap: test-snap-travis-lukewh
   edge: true
